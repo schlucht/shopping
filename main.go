@@ -2,17 +2,15 @@ package main
 
 import (
 	"log"
+	"github.com/schlucht/rechnung/users"
 )
 
 
 
 func main() {
 	
-	usr := User {
-		FirstName: "Lothar",
-		LastName: "Schmid",
-		Age: 55,
-	}
+	
+	
 	
 }
 
