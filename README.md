@@ -1,1 +1,1 @@
-# Rechnungen
+# Webtemplate mit Golang
