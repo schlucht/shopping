@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/alexedwards/scs/v2"
-	"github.com/schlucht/rechnung/pkg/config"
-	"github.com/schlucht/rechnung/pkg/handlers"
-	"github.com/schlucht/rechnung/pkg/render"
+	"github.com/schlucht/booking/pkg/config"
+	"github.com/schlucht/booking/pkg/handlers"
+	"github.com/schlucht/booking/pkg/render"
 )
 
 const PORTNUMBER = ":8080"

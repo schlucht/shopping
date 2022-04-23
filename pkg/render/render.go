@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/schlucht/rechnung/pkg/config"
-	"github.com/schlucht/rechnung/pkg/models"
+	"github.com/schlucht/booking/pkg/config"
+	"github.com/schlucht/booking/pkg/models"
 )
 
 var functions = template.FuncMap {

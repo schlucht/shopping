@@ -3,9 +3,9 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/schlucht/rechnung/pkg/config"
-	"github.com/schlucht/rechnung/pkg/models"
-	"github.com/schlucht/rechnung/pkg/render"
+	"github.com/schlucht/booking/pkg/config"
+	"github.com/schlucht/booking/pkg/models"
+	"github.com/schlucht/booking/pkg/render"
 )
 
 // TemplateData holds data send from handlers to templates
