@@ -1,0 +1,16 @@
+{
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Fira Code Consolas monospace",
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/static/css"
+        },
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "/static/css"
+        }
+    ],
+}
