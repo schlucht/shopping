@@ -1,6 +1,2 @@
-$red: red;
-
-main {
-    color: red;
-    background-color: blue;
-}
+@import './variables';
+@import './basic';

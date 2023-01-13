@@ -13,10 +13,13 @@ import (
 )
 
 const PORTNUMBER = ":8080"
+
 var app config.AppConfig
+
 // var session *scs.SessionManager
 
-var session *scs.SessionManager	
+var session *scs.SessionManager
+
 func main() {
 
 	app.InProduction = false
@@ -27,7 +30,7 @@ func main() {
 	session.Cookie.SameSite = http.SameSiteLaxMode
 	session.Cookie.Secure = app.InProduction
 
-	app.Session	= session
+	app.Session = session
 
 	tc, err := render.CreateTemplateCache()
 	if err != nil {
@@ -45,10 +48,10 @@ func main() {
 	fmt.Println("Server run on localhost:8080")
 
 	srv := &http.Server{
-		Addr: PORTNUMBER,
+		Addr:    PORTNUMBER,
 		Handler: routes(&app),
 	}
 	err = srv.ListenAndServe()
-	log.Fatal(err)
+	log.Fatal("Server ", err)
 
 }

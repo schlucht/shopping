@@ -21,3 +21,4 @@ func NewRepo(a *config.AppConfig) *Repository {
 func NewHandler(r *Repository) {
 	Repo = r
 }
+
